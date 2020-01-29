@@ -19,19 +19,8 @@ Original code was taken from [esx_trunk](https://github.com/schwim0341/esx_trunk
 ## Screens
 * [https://i.imgur.com/5jPPBe9.png](https://i.imgur.com/5jPPBe9.png)
 
-## Download & Installation
-
-### Using Git
-```
-cd resources
-git clone https://github.com/Trsak/esx_inventoryhud_trunk [esx]/esx_inventoryhud_trunk
-```
-
-### Manually
-- Download https://github.com/Trsak/esx_inventoryhud_trunk/archive/master.zip
-- Put it in the `[esx]` directory
-
 ## Installation
+- Place the script in your resources folder.
 - Add this to your `server.cfg`:
 
 ```
