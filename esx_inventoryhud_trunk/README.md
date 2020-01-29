@@ -1,4 +1,6 @@
-# esx_inventoryhud_trunk 1.0
+# esx_inventoryhud_trunk 2.0 - Updated to 2.0 by Jaxxin
+##Added support for the new weight system of ESX.
+
 This is an vehicle trunk addon for [esx_inventoryhud](https://github.com/Trsak/esx_inventoryhud/).
 Original code was taken from [esx_trunk](https://github.com/schwim0341/esx_trunk) modified by schwim0341.
 
