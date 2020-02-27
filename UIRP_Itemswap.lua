@@ -12,14 +12,14 @@ local ctlPED = ('xPlayer.ctlPED')
 -----
    -- SWAPPER
        if xItem.uirp51.count > 3 then
-          xPlayer.removeInventoryItem('xItem.uirp51', 3) then
-          xPlayer.addInventoryItem('xItem.uirp52', 1)
-          xPlayer.showNotification(_U('uirp_item_proccess_51'))
+          ctlPED.removeInventoryItem('xItem.uirp51', 3) then
+          ctlPED.addInventoryItem('xItem.uirp52', 1)
+          ctlPED.showNotification(_U('uirp_item_proccess_51'))
        else
-          xPlayer.ctlPED.TriggerUIRPNotify(_U('uirp_item_proccess_failed'))
+          ctlPED.TriggerUIRPNotify(_U('uirp_item_proccess_failed'))
           end
         else
-          xPlayer.ctlPED.TriggerUIRPNotify(_U('uirp_item_proccess_trigger'))
+          ctlPED.TriggerUIRPNotify(_U('uirp_item_proccess_trigger'))
           end
        
        ctlPed.Proccesing[_source] = nil
